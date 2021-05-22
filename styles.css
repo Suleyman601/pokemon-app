@@ -61,8 +61,18 @@ span{
   height: 100%;
   text-align: center;
   padding: .3em;
+  box-sizing: border-box;
 }
 
+.value{
+  width:70%;
+  display: inline-block;
+  background-color: lightgrey;
+  font-weight: normal;
+  font-size: 1rem;
+  padding-left: 2.2em;
+  text-align: left;
+}
 /*Button*/
 #random{
   width:30%;
